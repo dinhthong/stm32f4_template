@@ -13,3 +13,13 @@ src_hal/usart6_transmit_DMA/MDK-ARM/Uart Echo Data Using DMA/Uart Echo Data Usin
 src_hal/usart6_transmit_DMA/MDK-ARM/Uart Echo Data Using DMA/Uart Echo Data Using DMA.htm
 src_hal/usart6_transmit_DMA/MDK-ARM/Uart Echo Data Using DMA/Uart Echo Data Using DMA.build_log.htm
 src_hal/usart6_transmit_DMA/MDK-ARM/Uart Echo Data Using DMA/Uart Echo Data Using DMA.axf
+
+# ignore Keil C files
+**/MDK-ARM 
+
+# Eclipse
+.metadata
+.settings
+[Rr]elease
+[Dd]ebug
+.launch
