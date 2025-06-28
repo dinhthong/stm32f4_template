@@ -1,9 +1,21 @@
 #include "main.h"
+#include "LEDcpp.hpp"
+
 /*
 Sample delay functions.
 */
 void delay_us(uint32_t period);
 void delay_01ms(uint16_t period);
+
+
+/* USER CODE END PFP */
+
+/* Private user code ---------------------------------------------------------*/
+/* USER CODE BEGIN 0 */
+CLed led3(GPIOD,GPIO_Pin_13,500);
+CLed led4(GPIOD,GPIO_Pin_12,1000);
+CLed led5(GPIOD,GPIO_Pin_14,2000);
+CLed led6(GPIOD,GPIO_Pin_15,4000);
 
 int main(void)
 {
